@@ -1,27 +1,36 @@
-.name{
-    float: left;
-    color: white;
-    margin: 0px;
-    background-color: #4aaaa5;
-    padding: 29px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    letter-spacing: .5px;
-    font-size: 30px;  
-}
-
 .navigationBar{
     height: 90px;
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
-    overflow: hidden;
+}
+
+.name{
+    float: left;
+    color: white;
+    margin: 0px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;  
+}
+
+.links {
+    float: right
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+}
+
+li{
+    float: left
 }
 
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 30px;
-    padding: 0px 0px 35px 0px;
     border-bottom: 2px solid #dddddd;
     margin: 10px 0px 30px 0px;
 }
