@@ -3,39 +3,41 @@
 
 <head>
     <title>Peter - Contact</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" src="assets/css/style.css">
 </head>
 
+<body>
 <!--Header Tabs-->
 <header>
-    <h1 id="name">Peter Rydell</h1>
+    <h1 class="name">Peter Rydell</h1>
     <div class="navigationBar">
-        <button id="aboutButton"><a href="index.html">About</a></button>
-        <button id="portfolioButton"><a href="portfolio.html">Portfolio</a></button>
-        <button id="contactButton"><a href="contact.html">Contact</a></button>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
 </header>
-<body>
+
     <h1>Contact</h1>
     <hr>
-    <!--Contact Form-->
+<!--Contact Form-->
     <section id="contactForm">
         <form>
             Name <br>
-            <input type="text" name="name" input="John Smith">
+            <input type="text" name="name" value="John Smith">
             <br>
             Email <br>
-            <input type="text" email="email" input="example@gmail.com">
+            <input type="text" name="email" value="example@gmail.com">
             <br>
             Message <br>
-            <textarea type="text"></textarea>
+            <textarea type="text" name="message"></textarea>
             <br>
             <button id="submitButton">Submit</button>
         </form>
     </section> 
 
-    <!--Footer Section-->
-    </section>
+<!--Footer Section-->
     <section id="footer">
     COPYRIGHT ©
     </section>  

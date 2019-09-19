@@ -1,0 +1,10 @@
+.name{
+    float: left;
+    color: white;
+    margin: 0px;
+    background-color: #4aaaa5;
+    padding: 29px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    letter-spacing: .5px;
+    font-size: 30px;  
+}
