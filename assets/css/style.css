@@ -16,16 +16,25 @@
 }
 
 .links {
-    float: right
-}
-
-ul {
+    float: right;
     display: block;
-    list-style-type: disc;
+    list-style: none;
+    padding:15px;
 }
 
 li{
-    float: left
+    float: left;
+    padding: 10px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
 }
 
 h2 {
@@ -34,4 +43,8 @@ h2 {
     font-size: 30px;
     border-bottom: 2px solid #dddddd;
     margin: 10px 0px 30px 0px;
+}
+
+p {
+    color: #777777;
 }
