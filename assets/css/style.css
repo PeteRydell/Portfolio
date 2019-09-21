@@ -101,7 +101,7 @@ p {
     color: #ffffff;
     font-size: 20px;
     padding: 10px;
-    margin: 150 auto 10 auto;
+    margin-top: 150px
 }
 
 form {
@@ -111,7 +111,6 @@ form {
 
 input {
     width:895px;
-    border-color: #dddddd;
     font-size: 15px;
 }
 
