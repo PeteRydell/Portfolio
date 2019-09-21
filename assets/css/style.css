@@ -56,6 +56,7 @@ body {
     border: 2px solid #dddddd;
     background-color: #ffffff;
     margin: 30px auto 100px auto;
+    overflow: auto;
 }
 
 h2 {
@@ -74,11 +75,64 @@ p {
     color: #777777;
 }
 
+.projectExample {
+    display:flex;
+    float:left;
+    position: relative;
+    margin: 10px 40px 50px 0px;
+}
+
+.projectImage {
+    height: 200px;
+    width: 275px;
+}
+
+.projectText {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 255px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 150 auto 10 auto;
+}
+
+form {
+    font-size: 20;
+    margin: 20, 0, 0, 0;
+}
+
+input {
+    width:895px;
+    border-color: #dddddd;
+    font-size: 15px;
+}
+
+textarea {
+    height: 200px;
+    width: 895px;
+    border-color: #dddddd;
+}
+
+button {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 20px, 0, 0, 0;
+}
+
 .footer {
     clear: both;
     width: 100%;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     background-color: #666666;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+    text-align: center;
 }
