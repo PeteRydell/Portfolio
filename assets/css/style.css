@@ -140,3 +140,7 @@ button {
     position: fixed;
     text-align: center;
 }
+
+.footerText {
+    color: #ffffff;
+}
