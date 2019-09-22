@@ -5,14 +5,14 @@ header {
     margin: 0;
 }
 
-.navigationBar{
+.navigationBar {
     height: 90px;
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
 }
 
-.name{
+.name {
     float: left;
     margin: 0px;
     color: white;
@@ -29,7 +29,7 @@ header {
     padding:15px;
 }
 
-li{
+li {
     float: left;
     padding: 10px;
     color:#dddddd
@@ -51,7 +51,7 @@ body {
     margin: 0;
 }
 
-.mainContent{
+.mainContent {
     width:900px;
     padding:30px;
     border: 2px solid #dddddd;
@@ -72,7 +72,7 @@ h2 {
     line-height: 30px;
 }
 
-#photo{
+#photo {
     float: left;
     padding: 0px 10px 10px 0px;
     margin-top: 8px;
